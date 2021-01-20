@@ -1,0 +1,117 @@
+*{
+    padding: 0px;/*use for left space*/
+     margin: 0px;/*use for top space */
+ }
+
+ header{
+	background-color: rgb(117, 115, 115);
+	width: 100%;
+}
+
+header .header-brand{
+	font-family: catamaran;
+	font-size: 28px;
+	font-weight: 900;
+	color:whitesmoke;
+	text-transform: uppercase;
+	display: block;
+    margin: 0 auto;
+	text-align: center;
+	padding-top: 15px;
+}
+header li a:hover  /*it is used to change soe part of styling */
+{
+	color:rgb(247, 17, 247);
+}
+header li{/*use to style li inside ul*/
+	list-style: none;/*use for dot ar something else eg:.harsh*/
+    display: inline-block;
+    font-size: 22px;
+    line-height: 20px;/*hepls to bring in centre as nav heigth nd line height are same*/
+}
+header li a{/*a is anchor tag here it used to edit inside a*/
+    text-decoration: none;
+    display: inline-block;/*use for put words in block so that if we click abovee or below it also works*/
+    font-family: arial;
+    font-weight: 750;
+    color:white;
+    margin: 0 ; /*if want space between then use o 20 or somethimg as we have define earlier*/
+  }
+  header .col-1{
+    text-align: left;
+    background-color: red;
+
+
+ }
+ 
+ header .col-3{
+    text-align: left;
+    background-color:blue;
+ }
+
+
+  
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+ footer{
+    width: 100%;
+    padding: 20px 40px;
+    background-color:rgb(117, 115, 115);
+    margin-top: 20px;
+    overflow: hidden;
+}
+footer ul{
+    width: fit-content;
+    float: left;
+    padding-left: 20px;
+
+
+}
+footer ul li{
+   display: block;
+   list-style: none;
+}
+footer ul li a{
+   font-family: catamaran;
+   font-size: 24px;
+   color: #fff;
+   line-height: 40px;
+   float: left;
+
+}
+
+.footer-sm {
+  padding-bottom: 5px;
+  width: 40px;
+  float:right;
+  position: absolute;
+  right: 5%;
+
+}
+.footer-sm img{
+
+	width: 100%;
+	margin-bottom: 5px;
+	
+
+}
+footer li a:hover  /*it is used to change soe part of styling */
+{
+	color:rgb(247, 17, 247);
+}
+
