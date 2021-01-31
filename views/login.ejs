@@ -8,18 +8,24 @@
     <div class="layer">
       <div class="content-w3ls">
         <div class="content-bottom">
-          <form action="#" method="post">
+          <form class="form">
             <div class="field-group">
               <span class="fa fa-user" aria-hidden="true"></span>
               <div class="wthree-field">
-                <input name="text1" id="text1" type="text" value="" placeholder="Email" required>
+                <input name="email" id="text1" type="text" placeholder="Email" required>
               </div>
+            </div>
+            <div class="emailError">
+
             </div>
             <div class="field-group">
               <span class="fa fa-lock" aria-hidden="true"></span>
               <div class="wthree-field">
-                <input name="password" id="myInput" type="Password" placeholder="Password">
+                <input name="password" id="myInput" type="Password" placeholder="Password" required>
               </div>
+            </div>
+            <div class="passwordError">
+
             </div>
             <div class="wthree-field">
               <button type="submit" class="btn">Login</button>
@@ -39,6 +45,7 @@
   </section>
   
   </body>
+
 
   <%- include('./partials/footer.ejs') %>
 

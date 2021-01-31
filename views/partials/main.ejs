@@ -3,7 +3,12 @@
     <div class="container position-relative" data-aos="zoom-in" data-aos-delay="100">
       <h1>Better Coding Experience <br>With Decode Jobs</h1>
       <h2>We are team of talanted coders providing you best path.</h2>
-      <a href="/login" class="btn-get-started">Get Started</a>
+
+       <% if(!user){ %>
+      <a href="/login" class="get-started-btn">Get Started</a>
+      <% }else{ %>
+        <a href="/logout" class="get-started-btn">logout</a>
+        <% } %>
     </div>
   </section><!-- End Hero -->
 
