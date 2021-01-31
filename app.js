@@ -26,6 +26,20 @@ app.get('/', (req, res) => {
    res.render('home')
 });
 
+app.get('/experience', (req, res) => {
+  res.render('experience')
+});
+app.get('/about', (req, res) => {
+  res.render('about')
+});
+
+app.get('/courses', (req, res) => {
+  res.render('courses')
+});
+
+app.get('/login', (req, res) => {
+  res.render('login')
+});
 app.get('/courses',requireAuth, (req, res) => res.render('courses'));
 app.use(authRoutes);
 

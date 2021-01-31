@@ -1,20 +1,51 @@
 <%- include('partials/head.ejs') %>
 <%- include('partials/header.ejs') %>
 
-<form>
-    <h2>SIGN UP</h2>
-    <label for="name">Name</label>
-    <input type="text" ,id="name" , name="name" , required>
-    <label for="phone">Phone No</label>
-    <input type="text" ,id="phone" , name="phone" , required>
-    <label for="email">Email</label>
-    <input type="text" , id="email" , name="email" , placeholder="Email" , required>
-    <div class="emailError"></div>
-    <label for="password">Password</label>
-    <input type="password" , id="password" , name="password" ,placeholder="Password" , required>
-    <div class="passwordError"></div>
-    <button>Sign up</button>
-  </form>
+<body>
+
+  <section class="main">
+    <div class="layer">
+      <div class="content-w3ls">
+        <div class="content-bottom">
+          <form action="#" method="post">
+            <div class="field-group">
+              <span class="fa fa-id-card" aria-hidden="true"></span>
+              <div class="wthree-field">
+                <input name="text1" id="text1" type="text" value="" placeholder="Name" required>
+              </div>
+            </div>
+            <div class="field-group">
+              <span class="fa fa-user" aria-hidden="true"></span>
+              <div class="wthree-field">
+                <input name="text1" id="text1" type="text" value="" placeholder="Email" required>
+              </div>
+            </div>
+            <div class="field-group">
+              <span class="fa fa-lock" aria-hidden="true"></span>
+              <div class="wthree-field">
+                <input name="password" id="myInput" type="Password" placeholder="Password">
+              </div>
+            </div>
+            <div class="wthree-field">
+              <button type="submit" class="btn">Sign Up</button>
+            </div>
+            <ul class="para">
+              <p>Already having account!!!!</p>
+            </ul>
+            
+            <ul class="list-login1">
+             
+              <li class="">
+                <a href="/login" class="text-centre Login">Login</a>
+              </li>
+            </ul>
+          </form>
+        </div>
+      </div>
+      </div>
+  </section>
+  
+</body>
 
   <%- include('partials/footer.ejs') %>
 

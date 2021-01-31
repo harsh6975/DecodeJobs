@@ -1,17 +1,151 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-	<title>Interview Tracker</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width,initial-scale=1.0"><!--name is used for according to system ie mobile desktop,width for according to device width ,1.0 for same ratio as devise-->
-	<link rel="stylesheet" href="style.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-</head>
-<body>
-    <main>
-        <p>Dsa</p>
-        <p>Tress</p>
-    </main>
-</body>
+<%- include('partials/head.ejs') %>
+<%- include('partials/header.ejs') %>
+<main id="main">
+    <!-- ======= Popular Courses Section ======= -->
+    <section id="popular-courses" class="courses">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Courses</h2>
+          <p></p>
+        </div>
+        <div class="row" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="course-item">
+              <img src="/img/ARRAY.png" class="img-fluid" alt="...">
+              <div class="course-content">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <h4>Data Structures</h4>
+                  <p class="price">Free</p>
+                </div>
+
+                <h3><a href="course-details.html">Array</a></h3>
+                <p>Arrays are among the oldest and most important data structures, and are used by almost every program. They are also used to implement many other data structures, such as lists and strings. They effectively exploit the addressing logic of computers.</p>
+              </div>
+            </div>
+          </div> <!-- End Course Item-->
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+            <div class="course-item">
+              <img src="/img/TREE.jpg" class="img-fluid" alt="...">
+              <div class="course-content">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <h4>Data Structure</h4>
+                  <p class="price">Free</p>
+                </div>
+
+                <h3><a href="course-details.html">Tree</a></h3>
+                <p>Tree data structure is implemented using arrays and used to implement priority queues. B-Tree and B+ Tree : They are used to implement indexing in databases. Syntax Tree: Used in Compilers. ... Spanning Trees and shortest path trees are used in routers and bridges respectively in computer networks.</p>
+              </div>
+            </div>
+          </div> <!-- End Course Item-->
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+            <div class="course-item">
+              <img src="/img/string.jpg" class="img-fluid" alt="...">
+              <div class="course-content">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <h4>Data Structure</h4>
+                  <p class="price">Free</p>
+                </div>
+
+                <h3><a href="course-details.html">String</a></h3>
+                <p>Strings, which are widely used in Java programming, are a sequence of characters. In Java programming language, strings are treated as objects. The Java platform provides the String class to create and manipulate strings</p>
+              </div>
+            </div>
+          </div> <!-- End Course Item-->
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+            <div class="course-item">
+              <img src="/img/sorting.jpg" class="img-fluid" alt="...">
+              <div class="course-content">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <h4>Data Structure</h4>
+                  <p class="price">Free</p>
+                </div>
+
+                <h3><a href="course-details.html">Sorting</a></h3>
+                <p>Sorting is any process of arranging items systematically, and has two common, yet distinct meanings:
+                  ordering: arranging items in a sequence ordered by some criterion;
+                  categorizing: grouping items with similar properties.</p>
+              </div>
+            </div>
+          </div> <!-- End Course Item-->
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+            <div class="course-item">
+              <img src="/img/searching.jpg" class="img-fluid" alt="...">
+              <div class="course-content">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <h4>Data Structure</h4>
+                  <p class="price">Free</p>
+                </div>
+
+                <h3><a href="course-details.html">Searching</a></h3>
+                <p>This is the process by which one searches the group of elements for the desired element. There are different methods of searching but let us deal two popular methods of searching and they are linear search and binary search.</p>
+              </div>
+            </div>
+          </div> <!-- End Course Item-->
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+            <div class="course-item">
+              <img src="/img/dp.jpg" class="img-fluid" alt="...">
+              <div class="course-content">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <h4>Data Structure</h4>
+                  <p class="price">Free</p>
+                </div>
+
+                <h3><a href="course-details.html">Dynamic Programming</a></h3>
+                <p>Dynamic Programming (DP) is an algorithmic technique for solving an optimization problem by breaking it down into simpler subproblems and utilizing the fact that the optimal solution to the overall problem depends upon the optimal solution to its subproblems.</p>
+              </div>
+            </div>
+          </div> <!-- End Course Item-->
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+            <div class="course-item">
+              <img src="/img/graph.jpg" class="img-fluid" alt="...">
+              <div class="course-content">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <h4>Data Structure</h4>
+                  <p class="price">Free</p>
+                </div>
+
+                <h3><a href="course-details.html">Graph</a></h3>
+                <p>A graph is a non-linear data structure, which consists of vertices(or nodes) connected by edges(or arcs) where edges may be directed or undirected. In Computer science graphs are used to represent the flow of computation.</p>
+              </div>
+            </div>
+          </div> <!-- End Course Item-->
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+            <div class="course-item">
+              <img src="/img/HASHING.png" class="img-fluid" alt="...">
+              <div class="course-content">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <h4>Data Structure</h4>
+                  <p class="price">Free</p>
+                </div>
+
+                <h3><a href="course-details.html">Hashing</a></h3>
+                <p>Hashing means using some function or algorithm to map object data to some representative integer value. This so-called hash code (or simply hash) can then be used as a way to narrow down our search when looking for the item in the map.</p>
+              </div>
+            </div>
+          </div> <!-- End Course Item-->
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+            <div class="course-item">
+              <img src="/img/LINKED LIST.png" class="img-fluid" alt="...">
+              <div class="course-content">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <h4>Data Structures</h4>
+                  <p class="price">Free</p>
+                </div>
+
+                <h3><a href="course-details.html">Linked List</a></h3>
+                <p>These nodes hold both the data and a reference to the next node in the list. Linked lists are often used because of their efficient insertion and deletion. They can be used to implement stacks, queues, and other abstract data types.</p>
+              </div>
+            </div>
+          </div> <!-- End Course Item-->
+
+        </div>
+
+      </div>
+    </section><!-- End Popular Courses Section -->
+
+  </main><!-- End #main -->
+  <%- include('partials/footer.ejs') %>
