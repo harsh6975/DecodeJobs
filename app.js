@@ -40,6 +40,9 @@ app.get('/courses', (req, res) => {
 app.get('/login', (req, res) => {
   res.render('login')
 });
+app.get('/questionpage', (req, res) => {
+  res.render('questionpage')
+});
 app.get('/courses',requireAuth, (req, res) => res.render('courses'));
 app.use(authRoutes);
 
