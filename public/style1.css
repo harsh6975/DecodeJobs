@@ -401,6 +401,14 @@ form .field-group .wthree-field {
 ::-moz-placeholder { /* Firefox 18- */
   color: #ccc;
 }
+
+.emailError{
+    color: #5fcf80;
+    
+}
+.passwordError{
+    color: #5fcf80;
+}
 .list-login{
     font-size: 10px;
     font-weight: 400;
