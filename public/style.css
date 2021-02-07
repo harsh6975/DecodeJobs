@@ -630,6 +630,27 @@ section {
   padding-left: 22.5cm;
 }
 /*--------------------------------------------------------------
+# Experience
+--------------------------------------------------------------*/
+.container1{
+  max-width: 52cm;
+  background-color: rgb(236, 234, 234);
+  text-align: center;
+  padding-left: 5cm;
+  padding-right: 5cm;
+  padding-top: 3cm;
+  padding-bottom: 0.5cm;
+}
+img{
+  border-radius: 500px;
+}
+
+
+
+
+
+
+/*--------------------------------------------------------------
 # Modal form
 --------------------------------------------------------------*/
 .modal-login {
